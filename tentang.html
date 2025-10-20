@@ -1,36 +1,136 @@
-tentang.html (Tentang Kami)
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
- <title>Tentang Kami</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tentang Kami - Bunny Bites</title>
+  <style>
+    /* Reset dasar */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #ffe6f0; /* soft pink background */
+      color: #4a1a3a; /* dark mauve */
+      line-height: 1.7;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #d81e5b; /* bright pink */
+      margin-bottom: 25px;
+      font-weight: 700;
+      text-shadow: 1px 1px 5px rgba(216, 30, 91, 0.5);
+      text-align: center;
+    }
+
+    .content {
+      max-width: 700px;
+      background: #fff0f6;
+      padding: 25px 30px;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(216, 30, 91, 0.2);
+      font-size: 1.1rem;
+    }
+
+    .content p {
+      margin-bottom: 20px;
+      white-space: pre-line; /* agar enter di teks terbaca */
+    }
+
+    .highlight {
+      font-weight: 600;
+      color: #d81e5b;
+    }
+
+    nav {
+      margin-top: 40px;
+      background: #d81e5b;
+      border-radius: 30px;
+      padding: 12px 30px;
+      box-shadow: 0 4px 12px rgba(216, 30, 91, 0.4);
+      align-self: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin: 0 15px;
+      padding: 8px 16px;
+      border-radius: 25px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background: #fff;
+      color: #d81e5b;
+      box-shadow: 0 0 10px #d81e5b;
+    }
+
+    /* Responsif */
+    @media (max-width: 720px) {
+      .content {
+        padding: 20px 25px;
+        font-size: 1rem;
+        max-width: 100%;
+      }
+
+      h1 {
+        font-size: 2.4rem;
+      }
+
+      nav a {
+        margin: 0 10px;
+        font-size: 1rem;
+        padding: 6px 12px;
+      }
+    }
+  </style>
 </head>
 <body>
- <h1>Tentang Kami</h1>
- <p>Selamat datang di toko paling gemas di kota! Kami menjual aneka roti lembut, kue lucu, dan cemilan manis yang siap menghibur harimu yang indah. Dari roti kejutan sampai kua karakter imut- semua dibuat dengan cinta rinsma dan chelsea dengan bahan yang berkualitas. Toko ini berdisi pada tanggal 2 oktober 2017 yang berada di Yogyakarta. Selamat datang di toko paling gemes di kota!
-Kami menjual aneka roti lembut, kue lucu, dan camilan manis yang siap bikin harimu makin ceria 🧁💖
-Dari roti isi kejutan sampai kue karakter imut — semua dibuat dengan cinta dan bahan berkualitas 🍞✨
-Cocok buat ngemil, hadiah, atau sekadar manjain diri sendiri.
-📦 Terima juga pesanan custom & hampers yaa!
-kualitas terbaik.
-🐰 Selamat Datang di Bunny Bites 🍰
+  <h1>Tentang Kami</h1>
+  <div class="content">
+    <p>Selamat datang di toko paling gemas di kota! Kami menjual aneka roti lembut, kue lucu, dan cemilan manis yang siap menghibur harimu yang indah.</p>
 
-Kue Imut, Rasa Nikmat, Cinta di Setiap Gigitan!
+    <p>Dari roti isi kejutan sampai kue karakter imut — semua dibuat dengan cinta oleh Rinsma dan Chelsea dengan bahan berkualitas. Toko ini berdiri pada tanggal <span class="highlight">2 Oktober 2017</span> di Yogyakarta.</p>
 
-Di Bunny Bites, kami percaya bahwa kue bukan hanya makanan – tapi juga bentuk cinta, kebahagiaan, dan momen manis yang tak terlupakan. 💕
-Dari kue ulang tahun yang megah 🎂, cupcakes lucu nan menggoda 🧁, hingga cookies renyah yang bikin nagih 🍪 – semua dibuat dengan bahan pilihan dan sentuhan hati.
+    <p>Kami menyediakan berbagai pilihan camilan manis yang siap bikin harimu makin ceria 🧁💖 Cocok buat ngemil, hadiah, atau sekadar manjain diri sendiri. 📦 Terima juga pesanan custom & hampers yaa!</p>
 
-✨ Kenapa pilih Bunny Bites?
-✅ Bahan premium & fresh setiap hari
-✅ Desain bisa custom sesuai keinginan
-✅ Cocok untuk semua acara – ulang tahun, lamaran, hampers, hingga “me time” kamu 🍵
-✅ Tersedia pengiriman & pemesanan online</p>
- <p>Visi: Mewujudkan kebahagiaan sederhana lewat setiap gigitan kue dan roti yang lucu, lezat, dan dibuat sepenuh hati. 💖.</p>
- <p>Misi: Memanjakan pelanggan dengan produk yang tak hanya enak, tapi juga memikat mata dan menghangatkan suasana. ✨.</p>
- <nav>
- <a href="index.html">Beranda</a> |
- <a href="tentang.html">Tentang Kami</a> |
- <a href="produk.html">Produk</a> |
- <a href="kontak.html">Kontak</a>
- </nav>
+    <p><strong>🐰 Selamat Datang di Bunny Bites 🍰</strong></p>
+    <p><em>Kue Imut, Rasa Nikmat, Cinta di Setiap Gigitan!</em></p>
+
+    <p>Di Bunny Bites, kami percaya bahwa kue bukan hanya makanan – tapi juga bentuk cinta, kebahagiaan, dan momen manis yang tak terlupakan. 💕 Dari kue ulang tahun yang megah 🎂, cupcakes lucu nan menggoda 🧁, hingga cookies renyah yang bikin nagih 🍪 – semua dibuat dengan bahan pilihan dan sentuhan hati.</p>
+
+    <p><strong>✨ Kenapa pilih Bunny Bites?</strong></p>
+    <ul>
+      <li>✅ Bahan premium & fresh setiap hari</li>
+      <li>✅ Desain bisa custom sesuai keinginan</li>
+      <li>✅ Cocok untuk semua acara – ulang tahun, lamaran, hampers, hingga “me time” kamu 🍵</li>
+      <li>✅ Tersedia pengiriman & pemesanan online</li>
+    </ul>
+
+    <p><span class="highlight">Visi:</span> Mewujudkan kebahagiaan sederhana lewat setiap gigitan kue dan roti yang lucu, lezat, dan dibuat sepenuh hati. 💖</p>
+
+    <p><span class="highlight">Misi:</span> Memanjakan pelanggan dengan produk yang tak hanya enak, tapi juga memikat mata dan menghangatkan suasana. ✨</p>
+  </div>
+
+  <nav>
+    <a href="index.html">Beranda</a> |
+    <a href="tentang.html">Tentang Kami</a> |
+    <a href="produk.html">Produk</a> |
+    <a href="kontak.html">Kontak</a>
+  </nav>
 </body>
 </html>
